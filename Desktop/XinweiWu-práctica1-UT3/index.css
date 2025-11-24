@@ -1,0 +1,47 @@
+body
+{
+    margin:0;
+}
+
+header
+{
+    display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center;
+  
+  border: 5px solid purple;
+}
+
+article
+{
+   height: 500px;
+  
+  border: 3px solid black;
+  border-radius: 3%;
+
+  background-image: linear-gradient(to top, rgb(252, 76, 252), rgb(128, 1, 128));
+    
+}
+
+footer
+{
+  border: 5px solid purple;
+
+  background: yellow;
+}
+p
+{
+
+  font-family:'Courier New', Courier, monospace;
+
+  text-align: right;
+
+  border-top: 5px solid rgb(255, 0, 0);
+
+  border-bottom: 5px solid rgb(255, 0, 0);
+
+  min-height: 50px;
+
+
+}

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background: white;
+    width: 85%;
+    margin: 30px;
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 16px;
+    border-left: 10px solid red;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+p {
+    padding: 17px;
+}
+
+a {
+    color: rgb(80, 80, 229);
+}
+
+h3 {
+    color: purple;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
