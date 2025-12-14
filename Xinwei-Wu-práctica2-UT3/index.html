@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página personal</title>
+    <link rel="stylesheet" href="index.css">
+    </head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <body>
+        <header>
+                <h1>Mi página personal</h1>
+                <div class = 'overlay'>
+                    <img src="img/Google.jpg" alt="logotipo" width="100px">
+                </div>
+                <form class = 'Busqueda'>
+                    <input type = 'search' placeholder="Buscar" aria-label="Buscar">
+                    <button type="submit"><img src="img/lupita.webp" alt="lupa" width="20px"></button>
+                </form>
+            </header>
+            <nav>
+                <ul class = 'menu'>
+                    <li class = 'tooltip2'>
+                        <i class="fa-solid fa-user"></i>
+                        <span class="tooltiptext2">Sobre mí</span>
+                    </li>
+                    <li class = 'tooltip2'>
+                        <i class ="fa-solid fa-graduation-cap"></i>
+                        <span class ="tooltiptext2">Estudios</span>
+                    </li>
+                    <li class = 'tooltip2'>
+                        <i class ="fa-solid fa-briefcase"></i>
+                        <span class ="tooltiptext2">Portafolio</span>
+                    </li>
+                    <li class = 'tooltip2'>
+                        <i class ="fa-solid fa-blog"></i>
+                        <span class ="tooltiptext2">Blog</span>
+                    </li>
+                </ul>
+            </nav>
+        <main>
+           <section id = 'SobreMi'>
+                <div class = 'card'>
+                    <h1>Sobre Mi</h1>
+                    <div class = 'bodycard'>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
+                            type and scrambled it to make a type specimen book. 
+                        </p>
+            
+                        <p><a>Edad</a> 200</p>
+                        <p><a>País</a> República del Congo</p>
+                        <p><a>Dirección</a> C/ Boulevard du 30 Juin" en Kinshasa</p>
+                        <p><a>Correo</a> Ansu@nig.es</p>
+                        <p><a>Teléfono</a> 666 666 666</p>
+                    </div>
+                    
+                    <div class = 'bodycardUnder'>
+                        <h2>Lo que <a>hago</a>:</h2>
+
+                        <img src="img/programacion.png" alt="logotipo" width="50px">
+                        <h3>Programación</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
+                            type and scrambled it to make a type specimen book. 
+                            It has survived not only five centuries, but also the leap into electronic 
+                            typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of 
+                            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
+                            software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+
+                        <img src="img/huevo.png" alt="logotipo" width="50px">
+                        <h3>Cocinar</h3>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
+                            type and scrambled it to make a type specimen book. 
+                        </p>
+                    </div>
+                </div>
+           </section>
+
+           <section id = 'Portafolio'>
+                <div class = 'portfolio'>
+                    <h1 class = 'TituloPortafolio'>Portafolio</h1>
+
+                    <div class = 'portfolioBody'>
+                        <div class = 'img1'>
+                            <img src="img/lenguajes_1.png" alt="desarrolo web" width = "100px">
+                        </div>
+
+                        <div class = 'img2'>
+                            <img src="img/Que-hace-un-programador-informatico-y-cuanto-cobra-en-Espana1.jpg" alt="programacion" width = "200px">
+                        </div>
+
+                        <div class = 'img3'>
+                            <img src="img/Bases-de-datos-como-Servicio-3.jpeg" alt="base de datos" width = "200px">
+                        </div>
+                    </div>
+
+                    <div class ='Nombre'>
+                        <span class = "proyecto">Desarrolo Web</span>
+                        <span class = "proyecto">Programador</span>
+                        <span class = "proyecto">Base de Datos</span>
+                    </div>
+                    
+                    <div class = 'portfolioBody2'>
+                        <div class = 'img4'>
+                            <img src="img/Csharp_Logo.png" alt="c#" width = "200px">
+                        </div>
+
+                        <div class = 'img5'>
+                            <img src="img/cuanto-gana-ingeniero-informatico-.2e16d0ba.fill-767x384.jpg" alt="Ingeniero Informatico" width = "200px">
+                        </div>
+
+                        <div class = 'img6'>
+                            <img src="img/images.jpg" alt="programador" width = "200px">
+                        </div>
+                    </div>
+
+                    <div class = 'Nombre2'> 
+                        <span class = "proyecto">Experto en C#</span>
+                        <span class = "proyecto">Ingeniero Informatico</span>
+                        <span class = "proyecto">Programador</span>
+                    </div>
+                </div> 
+           </section>
+            <article>
+                <form>
+                    <h2>Contacto</h2>
+                    <label>Correo</label>
+                    <input type = "text" placeholder="Tu correo electrónico" required autofocus>
+
+                    <label>Teléfono Movil</label>
+                    <input type = "tel" placeholder="Tu número de teléfono" required>
+
+                    <label>Observaciones</label>
+                    <textarea name="Observaciones" id="comentario" cols ="30" rows ="5">Pon tus observaciones....</textarea>
+
+                    <input type="submit" value="Enviar mensaje">
+                </form>
+            </article>
+                <footer>
+                    <div class="tooltip">Xinwei Wu
+                    <span class="tooltiptext">Xinwei Wu es un alumno de 1ºDAM A</span>
+                    </div>
+                 </footer>
+        </main>
+    </body>
