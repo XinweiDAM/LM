@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Bigfish.css"?>
+
+<caratula>
+    <actores>
+        <actor>Ewan McGregor</actor>
+        <actor>Albert Finney</actor>
+        <actor>Billy Crudup</actor>
+        <actor>Jessica Lange</actor>
+    </actores>
+
+    <director>Una película de Tim Burton</director>
+
+    <titulo>Big Fish</titulo>
+
+    <eslogan>Una aventura tan grande como la vida misma</eslogan>
+</caratula>

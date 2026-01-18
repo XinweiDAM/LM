@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<equipos>
+    <jugador>
+    <nombre>Lamine Yamal</nombre>
+    <equipo>FCBarcelona</equipo>
+    <entrenador>Hansi Flick</entrenador>
+    </jugador>
+
+    <jugador>
+    <nombre>Penalpe</nombre>
+    <equipo>Ladrones y Llorones CF</equipo>
+    <entrenador>Cono Arbeloa</entrenador>
+    </jugador>
+
+    <jugador>
+    <nombre>Pedri</nombre>
+    <equipo>FCBarcelona</equipo>
+    <entrenador>Hansi Flick</entrenador>
+    </jugador>
+
+    <jugador>
+    <nombre>Raphinha</nombre>
+    <equipo>FCBarcelona</equipo>
+    <entrenador>Hansi Flick</entrenador>
+    </jugador>
+
+    <jugador>
+    <nombre>Lionel Messi</nombre>
+    <equipo>Inter de Miami</equipo>
+    <entrenador>Javier Mascherano</entrenador>
+    </jugador>
+</equipos>
