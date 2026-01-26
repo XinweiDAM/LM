@@ -1,0 +1,11 @@
+[
+    {
+        "libros" : [
+            {"title": "El silencio de los turnos", "author": "David Romero", "genre": "Ciencia Ficción", "year": 2025, "cover": "https://m.media-amazon.com/images/I/61UYQixr2RL._SY466_.jpg"},
+            {"title": "El libro troll", "author": "Ruben Doblas", "genre": "Humor", "year": 2013, "cover": "https://m.media-amazon.com/images/I/415KQYa0TML._SY445_SX342_ML2_.jpg"},
+            {"title": "El camino del gol", "author": "Mario Alonso", "genre": "Ficción Deportiva", "year": 2018, "cover": "https://m.media-amazon.com/images/I/51ZZjU+6gXL._SY445_SX342_ML2_.jpg"},
+            {"title": "Mamutland", "author": " Carles Santaló", "genre": "Ficción Deportiva", "year": 2025, "cover": "https://m.media-amazon.com/images/I/414u6HVlb2L._SY445_SX342_ML2_.jpg"},
+            {"title": "2000 chistes para todos", "author": "Raul Álvarez", "genre": "Humor", "year": 2014, "cover": "https://m.media-amazon.com/images/I/517WdfMLNaL._SY445_SX342_ML2_.jpg"}
+        ]
+    }
+]
